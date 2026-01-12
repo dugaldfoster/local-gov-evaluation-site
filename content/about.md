@@ -5,7 +5,7 @@ image: "/img/about.jpg"
 ---
 
 ## Who it’s for
-People working in and with local government: policy, performance, commissioning, public health, regeneration, and partnerships.
+People working in and with local government: policy, performance, commissioning, public health, regeneration, and partnerships. 
 
 ## What “good” looks like
 - Clear purpose and decision
