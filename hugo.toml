@@ -1,0 +1,30 @@
+baseURL = "https://dugaldfoster.github.io/local-gov-evaluation-site/"
+languageCode = "en-gb"
+title = "Local Government Evaluation Hub"
+enableRobotsTXT = true
+
+[params]
+  tagline = "Practical methods, case studies, papers and networks for evaluation in local government."
+  defaultHero = "/img/hero.jpg"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 10
+  [[menu.main]]
+    name = "Methods"
+    pageRef = "/methods"
+    weight = 20
+  [[menu.main]]
+    name = "Case studies"
+    pageRef = "/case-studies"
+    weight = 30
+  [[menu.main]]
+    name = "Research papers"
+    pageRef = "/research-papers"
+    weight = 40
+  [[menu.main]]
+    name = "Networks"
+    pageRef = "/networks"
+    weight = 50
