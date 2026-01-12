@@ -1,0 +1,43 @@
+{{ define "main" }}
+  {{ $hero := or .Params.hero site.Params.defaultHero }}
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>{{ site.Title }}</h1>
+      <p class="lede">{{ site.Params.tagline }}</p>
+
+      <div class="cta-row">
+        <a class="btn" href="{{ "/methods" | relURL }}">Explore methods</a>
+        <a class="btn ghost" href="{{ "/case-studies" | relURL }}">Browse case studies</a>
+      </div>
+
+      <div class="chips">
+        <span>Process evaluation</span>
+        <span>Impact</span>
+        <span>VfM</span>
+        <span>Equity</span>
+        <span>Mixed methods</span>
+      </div>
+    </div>
+
+    <div class="hero-media" style="background-image:url('{{ $hero | relURL }}')">
+      <div class="hero-overlay" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <section class="grid">
+    {{ range .Params.cards }}
+      <article class="card">
+        <h3>{{ .title }}</h3>
+        <p>{{ .text }}</p>
+        {{ with .link }}
+          <a class="card-link" href="{{ .url | relURL }}">{{ .label }} →</a>
+        {{ end }}
+      </article>
+    {{ end }}
+  </section>
+
+  <section class="content-block">
+    {{ .Content }}
+  </section>
+{{ end }}
