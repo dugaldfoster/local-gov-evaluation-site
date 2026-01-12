@@ -1,7 +1,7 @@
 ---
 title: "About"
 description: "What this hub is, who it’s for, and how to use it."
-image: "/img/about.jpg"
+image: "img/about.jpg"
 ---
 
 ## Who it’s for
