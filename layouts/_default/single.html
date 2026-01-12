@@ -1,0 +1,22 @@
+{{ define "main" }}
+  {{ $img := .Params.image }}
+
+  <article class="page">
+    <header class="page-head">
+      <div>
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.description }}<p class="lede">{{ . }}</p>{{ end }}
+      </div>
+
+      {{ if $img }}
+        <div class="page-image" style="background-image:url('{{ $img | relURL }}')">
+          <div class="page-overlay" aria-hidden="true"></div>
+        </div>
+      {{ end }}
+    </header>
+
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}
