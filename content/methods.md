@@ -1,7 +1,7 @@
 ---
 title: "Methods"
 description: "A practical menu of rigorous approaches — from implementation learning to causal impact and value for money."
-image: "/img/methods.jpg"
+image: "img/methods.jpg"
 ---
 
 ## Three core types of evaluation
