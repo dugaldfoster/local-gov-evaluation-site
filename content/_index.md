@@ -1,6 +1,6 @@
 ---
 title: "Home"
-hero: "/img/hero.jpg"
+hero: "static/img/hero.jpg"
 cards:
   - title: "Start with the decision"
     text: "Define what will change based on the findings. If there’s no decision, tighten the question."
