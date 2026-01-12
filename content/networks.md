@@ -1,7 +1,7 @@
 ---
 title: "Networks"
 description: "Communities of practice, training, standards, and peer support."
-image: "/img/networks.jpg"
+image: "img/networks.jpg"
 ---
 
 ## What to list here
