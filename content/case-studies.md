@@ -1,7 +1,7 @@
 ---
 title: "Case studies"
 description: "Reusable patterns you can adapt for local programmes."
-image: "/img/case-studies.jpg"
+image: "img/case-studies.jpg"
 ---
 
 ## Useful shapes
